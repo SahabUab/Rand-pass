@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rand pass || with sahab_uab</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ <div class="card">
+   <div class="card-header">
+     <h4>rand() Pass</h4>
+     <p>you can create strong password randomly</p>
+   </div>
+   <div class="card-body">
+     <div class="fild-box">
+       <div class="fild">
+         <input type="text" value="000" readonly>
+         <button type="submit">copy</button>
+       </div>
+       <button type="submit">new password</button>
+     </div>
+     <div class="setting">
+       <p class="title">customs settings</p>
+       <div class="item-range">
+         <p>length</p>
+         <div class="range">
+           <input type="range" minlength="6" maxlength="30" onchange="rangeValue(this)">
+           <input type="text" id="rangeValueShow" value="00" readonly>
+         </div>
+       </div>
+       <div class="item">
+         <p>letters</p>
+         <input type="checkbox">
+       </div>
+       <div class="item">
+         <p>numbers</p>
+         <input type="checkbox">
+       </div>
+       <div class="item">
+         <p>characters</p>
+         <input type="checkbox">
+       </div>
+       <div class="item">
+         <p>speech</p>
+         <input type="checkbox">
+       </div>
+     </div>
+   </div>
+   <div class="card-footer">
+     <p>powered by <a href="" target="_bank">sahab_uab</a></p>
+   </div>
+ </div>
+ 
+ 
+  <script src="main.js"></script>
+</body>
+</html>
