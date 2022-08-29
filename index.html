@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rand pass || with sahab_uab</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      <h4>rand() Pass</h4>
+      <p>you can create strong password randomly</p>
+    </div>
+    <div class="card-body">
+      <div class="fild">
+        <input type="text" value="000" readonly id="showPass">
+        <button type="submit" onclick="copy(this)">copy</button>
+      </div>
+      <button type="submit" onclick="newPass()">new password</button>
+
+      <div class="range">
+        <p>password lenght</p>
+        <div class="slider">
+          <input type="range" min="2" max="30" value="6" oninput="passLenght(this)">
+          <input type="text" value="00" id="showPassValue" readonly>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer">
+      <p>powered by <a id="copyright" href="hps://web.facebook.com/profile.php?id=100071042731343"
+          target="_bank">sahab_uab</a></p>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
